@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
 
                 .then(data => {
                     console.log(data);
-                    quote.innerHTML = `<em> ${data.quote} </em>`;
+//                     quote.innerHTML = `<em> ${data.quote} </em>`;
                     const timeZone = data.timezone;
                     const currentTemp = data.currently.apparentTemperature;
                     const description = data.currently.summary;
