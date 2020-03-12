@@ -14,8 +14,8 @@ body {
 }
 
 .location {
-    margin-top: 100px;
-    height: 30vh;
+    margin-top: 200px;
+    /* height: 30vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +66,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 475px) {
+    .quote-unquote {
+        font-size: 16px;
+    }
 }

@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     const temper = document.querySelector('.temperature .degree');
     const tempDesc = document.querySelector('.temp-description');
     const iconic = document.querySelector('.icon1')
-    const quote = document.querySelector('.quote-unquote p');
+    // const quote = document.querySelector('.quote-unquote p');
     if (navigator.geolocation) {
 
         navigator.geolocation.getCurrentPosition(position => {
